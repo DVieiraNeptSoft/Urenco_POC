@@ -1,0 +1,27 @@
+const date = moment(oDatePicker.getDateValue()).format("YYYY-MM-DD");
+const startTime = new Date(date + "T09:00:00");
+const endTime = new Date(date + "T18:00:00"); 
+
+var options = {
+    parameters: {
+        "api-version": "2016-06-01", // Required 
+        "sp": "/triggers/manual/run", // Required 
+        "sv": "1.0", // Required 
+        "sig": "qb6TZ_a-KfyrFUF4mvc41U-jK1dX5uuExGDnrqPV3Sg" // Required 
+    },
+    data: {
+        "title": "Concern Assignment",
+        "buttonText": "See Concern details",
+        "body": "Concern ID " + modeloPanelOperations.getData().issueID + " has been assigned to you",
+        "buttonUrl": "https://www.neptune-software.com",
+        "recipientEmails": [oSelectUser.getSelectedKey()],
+    //     "startTime": date + "T" + moment(oListAvailability.getSelectedItems()[0].getBindingContext().getObject().start).format("HH:mm:ss"),
+        "startTime": date + "T" + moment(oListAvailability.getSelectedItems()[0].getBindingContext().getObject().start, "DD/MM/YYYY, HH:mm:ss").format("HH:mm"),
+    //     "endTime": date + "T" + moment(oListAvailability.getSelectedItems()[0].getBindingContext().getObject().end).format("HH:mm:ss"),
+        "endTime": date + "T" + moment(oListAvailability.getSelectedItems()[0].getBindingContext().getObject().end, "DD/MM/YYYY, HH:mm:ss").format("HH:mm"),
+        "timeZone": "Romance Standard Time"
+    }
+};
+
+// oApp.setBusy(true);
+apioRestAPIAssign(options);

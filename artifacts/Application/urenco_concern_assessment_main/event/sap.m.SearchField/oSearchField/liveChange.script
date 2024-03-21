@@ -1,0 +1,10 @@
+const binding = oListIssue.getBinding("items");
+const filter = new sap.ui.model.Filter({
+    filters: [
+        new sap.ui.model.Filter("issueID", "EQ", this.getValue()),
+        new sap.ui.model.Filter("issueDescription", "Contains", this.getValue()),
+        new sap.ui.model.Filter("equipmentType", "Contains", this.getValue())
+    ],
+    and: false
+})
+binding.filter([filter]);

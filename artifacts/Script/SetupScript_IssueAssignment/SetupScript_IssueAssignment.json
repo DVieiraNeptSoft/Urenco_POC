@@ -1,0 +1,26 @@
+{
+	"id": "6202f390-6ec9-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-23T11:33:44.400Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "B04C9C45-09C7-ED11-A8E0-000D3ADA944E",
+			"name": "urenco_issues",
+			"contextname": "urenco_issues"
+		}
+	],
+	"apis": [],
+	"name": "SetupScript_IssueAssignment",
+	"ver": "23.3.24.133",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "46299c79-e3c7-ed11-a8e0-000d3ada944e",
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e"
+}

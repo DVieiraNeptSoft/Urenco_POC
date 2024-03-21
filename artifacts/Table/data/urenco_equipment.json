@@ -1,0 +1,222 @@
+[
+	{
+		"id": "fd9c501e-6e80-4dd6-8203-ff434377d2d5",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "ENERGY004",
+		"equipmentDescription": "Fortress Power eSpire 233",
+		"equipmentType": "Energy Storage System",
+		"locationID": 7
+	},
+	{
+		"id": "fcb26f6f-6017-47f9-b3b5-126e14eacc41",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "MONITOR005",
+		"equipmentDescription": "SAMSUNG 34-Inch SJ55W Ultrawide",
+		"equipmentType": "Office Monitor",
+		"locationID": 10
+	},
+	{
+		"id": "f3654462-4698-42b0-ac6a-d0ba1ad563d3",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "REACTOR003",
+		"equipmentDescription": "Holtec Pressurized-Water Reactor HFP-03",
+		"equipmentType": "Nuclear Reactor",
+		"locationID": 2
+	},
+	{
+		"id": "ed681bce-1d0c-43c9-bcd1-32fd15f5ddd5",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "ENERGY001",
+		"equipmentDescription": "Fortress Power eSpire 233",
+		"equipmentType": "Energy Storage System",
+		"locationID": 6
+	},
+	{
+		"id": "ed237aa0-8b8d-4cb2-b281-451091504b72",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "REACTOR004",
+		"equipmentDescription": "Holtec Pressurized-Water Reactor HFP-03",
+		"equipmentType": "Nuclear Reactor",
+		"locationID": 1
+	},
+	{
+		"id": "ea4ff17f-33c4-46a9-91a8-5ea823f97ac4",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "MONITOR003",
+		"equipmentDescription": "SAMSUNG 34-Inch SJ55W Ultrawide",
+		"equipmentType": "Office Monitor",
+		"locationID": 9
+	},
+	{
+		"id": "a95c9ebc-78b7-4957-818c-66e02d59e45d",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "LAPTOP004",
+		"equipmentDescription": "Dell XPS 13 9102 Core i7",
+		"equipmentType": "Office Laptop",
+		"locationID": 9
+	},
+	{
+		"id": "8b7bf9aa-db57-4f5d-a1d9-c3a9e2fe7093",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "VENTILATOR002",
+		"equipmentDescription": "MaxxAir™ 36\" Heavy Duty Exhaust Fan",
+		"equipmentType": "Exhaust Fan",
+		"locationID": 4
+	},
+	{
+		"id": "87b106be-0325-4cde-ad98-b45bdb566ad5",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "LAPTOP002",
+		"equipmentDescription": "Dell XPS 15 9430 Core i7",
+		"equipmentType": "Office Laptop",
+		"locationID": 9
+	},
+	{
+		"id": "7c0475ca-2fcc-45e1-b837-469e73a55fb7",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "ENERGY002",
+		"equipmentDescription": "Fortress Power eSpire 233",
+		"equipmentType": "Energy Storage System",
+		"locationID": 6
+	},
+	{
+		"id": "6da662a6-1348-4555-b03f-a495a25ce95a",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "VENTILATOR001",
+		"equipmentDescription": "MaxxAir™ 36\" Heavy Duty Exhaust Fan",
+		"equipmentType": "Exhaust Fan",
+		"locationID": 3
+	},
+	{
+		"id": "60e27454-bb38-4a61-8614-ffeaf9fba1cb",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "REACTOR002",
+		"equipmentDescription": "Hyperion Boiling Water Reactor MDX03",
+		"equipmentType": "Nuclear Reactor",
+		"locationID": 1
+	},
+	{
+		"id": "587c2481-4ba2-47ed-9e8d-95cb66e5f0d9",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "LAPTOP003",
+		"equipmentDescription": "Dell XPS 13 9102 Core i7",
+		"equipmentType": "Office Laptop",
+		"locationID": 8
+	},
+	{
+		"id": "4694fb7e-bbbb-492a-bd8d-e4cd69b7aaef",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "MONITOR004",
+		"equipmentDescription": "SAMSUNG 34-Inch SJ55W Ultrawide",
+		"equipmentType": "Office Monitor",
+		"locationID": 9
+	},
+	{
+		"id": "46688b62-e363-4548-8886-3e30ec2690aa",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "MONITOR001",
+		"equipmentDescription": "SAMSUNG 34-Inch SJ55W Ultrawide",
+		"equipmentType": "Office Monitor",
+		"locationID": 8
+	},
+	{
+		"id": "4560a3ce-e94c-4bc4-9f90-6aa6952c0a52",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "LAPTOP005",
+		"equipmentDescription": "Dell XPS 13 9102 Core i7",
+		"equipmentType": "Office Laptop",
+		"locationID": 10
+	},
+	{
+		"id": "42ac4660-e9a1-4af5-87d6-785d4ff362e2",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "REACTOR001",
+		"equipmentDescription": "Hyperion Boiling Water Reactor MDX03",
+		"equipmentType": "Nuclear Reactor",
+		"locationID": 2
+	},
+	{
+		"id": "427077f8-9661-45ba-ab21-6e0c90c7c028",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "MONITOR002",
+		"equipmentDescription": "SAMSUNG 34-Inch SJ55W Ultrawide",
+		"equipmentType": "Office Monitor",
+		"locationID": 8
+	},
+	{
+		"id": "32a8a72e-d4d3-47b2-a276-f557aafe43bb",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "ENERGY003",
+		"equipmentDescription": "Fortress Power eSpire 233",
+		"equipmentType": "Energy Storage System",
+		"locationID": 7
+	},
+	{
+		"id": "22fd9291-c327-4f4f-a681-570e77f77c9f",
+		"createdAt": "1679337227322",
+		"updatedAt": "1679337227322",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"equipmentID": "LAPTOP001",
+		"equipmentDescription": "Dell XPS 15 9430 Core i7",
+		"equipmentType": "Office Laptop",
+		"locationID": 8
+	}
+]

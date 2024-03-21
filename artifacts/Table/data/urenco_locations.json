@@ -1,0 +1,102 @@
+[
+	{
+		"id": "ff02fd92-2d01-4b30-8f68-29bfffb69762",
+		"createdAt": "1679336454782",
+		"updatedAt": "1679336454782",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"locationID": 7,
+		"locationName": "Energy Storage Room #2",
+		"locationStatusID": 0
+	},
+	{
+		"id": "fa812756-064d-4c6a-8c22-549713c91cc9",
+		"createdAt": "1679336454782",
+		"updatedAt": "1679336454782",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"locationID": 3,
+		"locationName": "Ventilation Room #1",
+		"locationStatusID": 0
+	},
+	{
+		"id": "e625eff5-1ab8-4fc8-9390-915fdc8e1c71",
+		"createdAt": "1679336454782",
+		"updatedAt": "1679336454782",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"locationID": 9,
+		"locationName": "Ground floor offices",
+		"locationStatusID": 0
+	},
+	{
+		"id": "e41d7370-de70-403b-b1e8-d32223ab0023",
+		"createdAt": "1679336454782",
+		"updatedAt": "1679336454782",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"locationID": 10,
+		"locationName": "External offices",
+		"locationStatusID": 0
+	},
+	{
+		"id": "e0a90c14-3935-420d-b728-d99786243990",
+		"createdAt": "1679336454782",
+		"updatedAt": "1679336454782",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"locationID": 5,
+		"locationName": "Energy Treatment Floor",
+		"locationStatusID": 0
+	},
+	{
+		"id": "aa289700-b1f5-44dd-ada6-0c48c90ecfe7",
+		"createdAt": "1679336454782",
+		"updatedAt": "1679336454782",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"locationID": 1,
+		"locationName": "North Plant Reactor",
+		"locationStatusID": 0
+	},
+	{
+		"id": "6ad029c1-f640-4be0-b39f-e3a6166c2ce8",
+		"createdAt": "1679336454782",
+		"updatedAt": "1679336454782",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"locationID": 2,
+		"locationName": "South Plant Reactor",
+		"locationStatusID": 0
+	},
+	{
+		"id": "60c20462-4321-4843-8442-0192b05fb26c",
+		"createdAt": "1679336454782",
+		"updatedAt": "1679336454782",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"locationID": 4,
+		"locationName": "Ventilation Room #2",
+		"locationStatusID": 0
+	},
+	{
+		"id": "22210936-a8be-4ad9-a5b7-1c8707c5052f",
+		"createdAt": "1679336454782",
+		"updatedAt": "1679336454782",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"locationID": 6,
+		"locationName": "Energy Storage Room #1",
+		"locationStatusID": 0
+	},
+	{
+		"id": "1da07bd5-f93a-4aae-9840-144705038b56",
+		"createdAt": "1679336454782",
+		"updatedAt": "1679336454782",
+		"createdBy": "gabriel.andrade@neptune-software.com",
+		"updatedBy": "gabriel.andrade@neptune-software.com",
+		"locationID": 8,
+		"locationName": "First floor offices",
+		"locationStatusID": 0
+	}
+]

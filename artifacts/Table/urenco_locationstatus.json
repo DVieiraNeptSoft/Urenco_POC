@@ -1,0 +1,31 @@
+{
+	"id": "3a1d0b5e-08c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T10:17:10.206Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "aa6baaa3-020c-435a-aca1-839c80d0dc21",
+			"fieldName": "locationStatusID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "a57ea018-e729-4458-fd4e-e023c5531549",
+			"fieldName": "locationStatus",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "urenco_locationstatus",
+	"description": null,
+	"ver": "23.3.20.1117",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,31 @@
+{
+	"id": "b32043b1-07c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T10:12:26.813Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "21d99744-a443-4c19-c406-bfb6acda12fb",
+			"fieldName": "actionStatusID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "003cf070-c70e-4838-928b-aea8e1976bea",
+			"fieldName": "actionStatus",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "urenco_actionssatus",
+	"description": null,
+	"ver": "23.3.20.1112",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

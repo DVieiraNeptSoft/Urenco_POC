@@ -1,0 +1,31 @@
+{
+	"id": "f4394e82-09c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T10:25:24.486Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "a1b9079c-48ca-45ca-b608-bb9b6d462a48",
+			"fieldName": "issueStatusID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "644449fa-edb4-4182-e7fa-9d12a333f982",
+			"fieldName": "issueStatus",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "urenco_issuestatus",
+	"description": null,
+	"ver": "23.3.20.1125",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

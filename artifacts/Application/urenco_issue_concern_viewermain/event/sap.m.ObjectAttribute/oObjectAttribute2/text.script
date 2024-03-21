@@ -1,0 +1,25 @@
+if (typeof issueStatusID === "undefined" || issueStatusID === null || issueStatusID === "") {
+    return;
+}
+
+var formattedText = issueStatusID;
+
+switch (issueStatusID) {
+    case 1:
+        formattedText = "Initial";
+        break;
+    case 3:
+        formattedText = "BAU Initial";
+        break;
+    case 4:
+        formattedText = "Project Initial";
+        break;
+    case 5:
+        formattedText = "BAU Assigned";
+        break;
+    case 6:
+        formattedText = "Project Assigned";
+        break;
+}
+
+return formattedText;

@@ -1,0 +1,205 @@
+{
+	"id": "85723055-41c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T17:04:54.446Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "5205f413-5317-4e07-d0c3-81e39176dbe8",
+			"method": "GET",
+			"path": "/urenco_equipment",
+			"description": "",
+			"parameters": [
+				{
+					"name": "where",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				},
+				{
+					"name": "sort",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"id": "95b473b4-1dab-493a-c4c9-70e33a0181a7",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "755bf324-e246-4c4b-d54d-eac9cda883d1",
+							"name": "equipment_struc",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": []
+		}
+	],
+	"definitions": [
+		{
+			"id": "c4638e2c-3929-40b5-888c-39c2cea4a805",
+			"name": "equipment_struc",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "bdd14c1e-42f8-4ec6-a0aa-d2aedb9298bb",
+					"name": "id",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "6e519769-041d-4633-8e8a-9a7488276431",
+					"name": "createdAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "9b5faa7b-3955-4947-b2a8-f67c54cf99dc",
+					"name": "updatedAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "536abb6f-aef7-4c8c-cfdb-a184fb0f7426",
+					"name": "createdBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "16ad4554-a3b5-4e2b-832b-d7eff3b33a6d",
+					"name": "updatedBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "246cf676-c76f-41e5-dd6f-d6eda2c821d4",
+					"name": "equipmentID",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "4fa77893-c58b-4d12-94fa-5be1fc930d0f",
+					"name": "equipmentDescription",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "ebb9e963-feba-4ef0-ae2a-43642dd656e7",
+					"name": "equipmentType",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "be27c491-f5d9-4480-c178-88dc497b1de2",
+					"name": "locationID",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "urenco_apiTable_equipment",
+	"endpoint": "/api/entity",
+	"ver": "23.3.21.113",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

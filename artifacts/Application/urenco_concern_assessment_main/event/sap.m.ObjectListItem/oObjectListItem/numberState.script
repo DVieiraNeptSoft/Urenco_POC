@@ -1,0 +1,18 @@
+if (typeof issueScore === "undefined" || issueScore === null || issueScore === "") {
+    return;
+}
+var formattedText = issueScore;
+
+var parseScore = parseInt(formattedText);
+
+if (parseScore < 50) {
+    scoreColor = "Success";
+} else if (parseScore >= 50 && parseScore <= 69) {
+    scoreColor = "Warning";
+} else {
+    scoreColor = "Error";
+}
+
+formattedText = scoreColor;
+
+return formattedText;

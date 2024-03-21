@@ -1,0 +1,183 @@
+{
+	"id": "a057fcb1-39ca-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-24T11:47:47.650Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "9f2f6801-aa76-4ea0-ed8d-88165803e67d",
+			"method": "GET",
+			"path": "/urenco_user_engineers",
+			"description": "",
+			"parameters": [
+				{
+					"name": "order",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"id": "5d087ede-eac9-4032-9631-a8af17c470a4",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "4a402e17-63a4-468c-d9bf-cea8268d8cc4",
+							"name": "urenco_userEngineersStruc",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": []
+		}
+	],
+	"definitions": [
+		{
+			"id": "eef5611a-3e74-4c77-cd4b-857fc2bdf574",
+			"name": "urenco_userEngineersStruc",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "ab7bd7c3-844c-402e-f5c5-77a1e6c452a7",
+					"name": "id",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "1da0e253-e009-4edd-e9a9-14c926c8b12e",
+					"name": "createdAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "2bbdfc70-2ce7-4a2a-9997-4037f717ed13",
+					"name": "updatedAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "d4c23702-9182-41e5-d727-0558608a0dac",
+					"name": "createdBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e58dba5e-32a8-4f95-c0bf-644be94cefe8",
+					"name": "updatedBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "ea4dcd35-b599-4a5b-8ef5-25c1a4479245",
+					"name": "username",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "b14e5a19-2f4a-4adc-dc27-b713fdc5afa8",
+					"name": "fullname",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e9a5f0d8-b8a0-44c2-cc60-fea44bc11b2a",
+					"name": "email",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "urenco_apiTable_urencoUserEngineers",
+	"endpoint": "/api/entity",
+	"ver": "23.3.24.1150",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

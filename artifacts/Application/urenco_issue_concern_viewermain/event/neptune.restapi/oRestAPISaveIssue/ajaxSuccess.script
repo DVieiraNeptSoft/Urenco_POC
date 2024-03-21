@@ -1,0 +1,9 @@
+var issueID = modeloIconTabBar.getData().issueID;
+
+//sap.n.Shell.closeSidepanelTab("URENCO_ASSESSMENT_DETAIL|Concern " + issueID);
+
+sap.m.MessageToast.show("Comments saved successfully for Concern # " + issueID);
+
+oApp.toDetail(oPageEmpty);
+oApp.toMaster(oPage);
+apioRestAPIGetIssue();

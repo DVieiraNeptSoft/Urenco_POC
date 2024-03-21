@@ -1,0 +1,20 @@
+{
+	"id": "dd435184-7ec9-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-23T13:27:55.143Z",
+	"createdBy": "lloyd.trevarthen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "boilerplate_SetupScript_fromtable",
+	"ver": "23.3.23.1329",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "46299c79-e3c7-ed11-a8e0-000d3ada944e",
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e"
+}

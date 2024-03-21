@@ -1,0 +1,183 @@
+{
+	"id": "3ceaf0e6-c0c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-21T08:18:05.043Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "7840a231-7aca-493c-bacd-394818066b39",
+			"method": "GET",
+			"path": "/urenco_locations",
+			"description": "",
+			"parameters": [
+				{
+					"name": "sort",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"id": "fe27d2e1-aea7-4b1e-e19d-28076db36520",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "a2cf5b56-5120-4fae-e88a-d5229d4e8e16",
+							"name": "locations_struc",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": []
+		}
+	],
+	"definitions": [
+		{
+			"id": "7536a0b3-6281-472b-bc43-6955efd286f2",
+			"name": "locations_struc",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "252bbe7d-afd5-4a71-ebfe-68d82bc35fbe",
+					"name": "id",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "ed1aec91-5daf-45ef-9c6f-c99c6e9ba16a",
+					"name": "createdAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "1b1934d9-ca75-4237-bbe6-df0f70fc1b78",
+					"name": "updatedAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "c39899e8-d6d7-47b5-c0e5-073e62dd52bf",
+					"name": "createdBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "651af000-cb45-415d-a966-63dfc849062b",
+					"name": "updatedBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "7da9964f-7bcb-46a7-f39f-53819875c227",
+					"name": "locationID",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "eadbb434-8dab-4f70-d11b-a4531fc4e331",
+					"name": "locationName",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "88d39be5-f2b2-459a-b32f-7b5f8f21dbb2",
+					"name": "locationStatusID",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "urenco_apiTable_locations",
+	"endpoint": "/api/entity",
+	"ver": "23.3.21.1037",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

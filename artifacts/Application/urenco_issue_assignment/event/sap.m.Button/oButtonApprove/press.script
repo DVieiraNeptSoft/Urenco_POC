@@ -1,0 +1,27 @@
+const date = moment(oDatePicker.getDateValue()).format("YYYY-MM-DD");
+
+var options = {
+    parameters: {
+        "api-version": "2016-06-01", // Required 
+        "sp": "/triggers/manual/run", // Required 
+        "sv": "1.0", // Required 
+        "sig": "zzI2PBbXnGh-srZ7cXlJGCVR5wsm4rZpmlvUark5WAo" // Required 
+    },
+    data: {
+        "objectType": "WORKORDER",
+        "objectKey": '{"workorderno": "' + modeloPanelOperations.getData().issueID + '","duedate": "'+ oDatePicker.getDateValue() +'","assignedto": "' + oSelectUser.getSelectedKey() + '"}',
+        "title": "Concern Assignment",
+        "buttonText": "See Concern details",
+        "body": "Issue ID " + modeloPanelOperations.getData().issueID + " has been assigned to you",
+        "buttonUrl": "https://www.neptune-software.com",
+        "recipientEmails": [oSelectUser.getSelectedKey()],
+    //     "startTime": date + "T" + moment(oListAvailability.getSelectedItems()[0].getBindingContext().getObject().start).format("HH:mm:ss"),
+        "startTime": date + "T" + moment(oListAvailability.getSelectedItems()[0].getBindingContext().getObject().start, "DD/MM/YYYY, HH:mm:ss").format("HH:mm"),
+    //     "endTime": date + "T" + moment(oListAvailability.getSelectedItems()[0].getBindingContext().getObject().end).format("HH:mm:ss"),
+        "endTime": date + "T" + moment(oListAvailability.getSelectedItems()[0].getBindingContext().getObject().end, "DD/MM/YYYY, HH:mm:ss").format("HH:mm"),
+        "timeZone": "Romance Standard Time"
+    }
+};
+
+// oApp.setBusy(true);
+apioRestAPIApproval(options);

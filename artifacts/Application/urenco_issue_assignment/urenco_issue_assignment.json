@@ -1,0 +1,986 @@
+{
+	"id": "e8aeb590-97c9-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-23T16:27:15.586Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "a56c64f0-1707-4e27-a8de-3ef430bd4b10",
+			"fieldName": "oPanelOperations",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Panel",
+			"script": "",
+			"customComponent": false,
+			"bindingValue": "Generic Object",
+			"bindingType": "u",
+			"bindingSource": "P9",
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "headerText",
+					"grouping": "Properties",
+					"value": "Issue Nr: {/issueID} - {/issueDescription} assignment:",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "e62b7b73-e731-4c32-a918-0b2d2b01aba0",
+					"fieldName": "oObjectHeader",
+					"fieldParent": "a56c64f0-1707-4e27-a8de-3ef430bd4b10",
+					"fieldType": "sap.m.ObjectHeader",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "{/equipmentID} - {/equipmentType}",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "5639d07b-2fd9-468e-921c-d9b058d79527",
+							"fieldName": "oObjectNumber",
+							"fieldParent": "e62b7b73-e731-4c32-a918-0b2d2b01aba0",
+							"fieldType": "sap.m.ObjectNumber",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "number",
+									"grouping": "Properties",
+									"value": "Total Cost: {/assessmentCost} $",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "c10d485d-7215-4f75-9c61-f83204451ea8",
+					"fieldName": "oSimpleForm",
+					"fieldParent": "a56c64f0-1707-4e27-a8de-3ef430bd4b10",
+					"fieldType": "sap.ui.layout.form.SimpleForm",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "layout",
+							"grouping": "Properties",
+							"value": "ResponsiveGridLayout",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "11fde3b1-1066-4d09-dbfb-e86d0cb2a558",
+							"fieldName": "oLabelUser",
+							"fieldParent": "c10d485d-7215-4f75-9c61-f83204451ea8",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Engineer",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "9dfefb33-2fc2-4c3d-a9ae-e8b6534e5ca4",
+							"fieldName": "oSelectUser",
+							"fieldParent": "c10d485d-7215-4f75-9c61-f83204451ea8",
+							"fieldType": "sap.m.Select",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "urenco_apiTable_urencoUserEngineers>urenco_userEngineersStruc",
+							"bindingType": "h",
+							"bindingSource": "API",
+							"bindingParentID": "A057FCB1-39CA-ED11-A8E0-000D3ADA944E",
+							"bindingPathID": "eef5611a-3e74-4c77-cd4b-857fc2bdf574",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "a65152da-f029-4a85-9f19-82a42df7c8df",
+									"fieldName": "oItem",
+									"fieldParent": "9dfefb33-2fc2-4c3d-a9ae-e8b6534e5ca4",
+									"fieldType": "sap.ui.core.Item",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "{fullname} ({email})",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "key",
+											"grouping": "Properties",
+											"value": "{email}",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "5e6a1229-bac1-4afb-c3b4-3758986cb56c",
+							"fieldName": "oLabelWhen",
+							"fieldParent": "c10d485d-7215-4f75-9c61-f83204451ea8",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "When this should be performed?",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "d70253e2-d0fc-432e-cdaf-e23b1f86f1cd",
+							"fieldName": "oDatePicker",
+							"fieldParent": "c10d485d-7215-4f75-9c61-f83204451ea8",
+							"fieldType": "sap.m.DatePicker",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "fa4a5ff0-1922-4cdf-dc24-96271887f303",
+							"fieldName": "oLabel",
+							"fieldParent": "c10d485d-7215-4f75-9c61-f83204451ea8",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "1208a5b2-adcb-4012-8aca-37d7d41335ee",
+							"fieldName": "oButtonCheckAvailability",
+							"fieldParent": "c10d485d-7215-4f75-9c61-f83204451ea8",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Check Availability",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://check-availability",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Button/oButtonCheckAvailability/press.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "ae47c840-69b8-479a-f5a2-876f800e5129",
+					"fieldName": "oVBoxAvailability",
+					"fieldParent": "a56c64f0-1707-4e27-a8de-3ef430bd4b10",
+					"fieldType": "sap.m.VBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "visible",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "3ebf399c-0f0c-4117-e666-03549b449b2d",
+							"fieldName": "oListAvailability",
+							"fieldParent": "ae47c840-69b8-479a-f5a2-876f800e5129",
+							"fieldType": "sap.f.GridList",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Select a time slot for the work",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "mode",
+									"grouping": "Properties",
+									"value": "SingleSelect",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "noDataText",
+									"grouping": "Properties",
+									"value": "No available timeslots",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "31877c08-fbca-4463-91c4-2f8a9a827657",
+									"fieldName": "oGridListItem",
+									"fieldParent": "3ebf399c-0f0c-4117-e666-03549b449b2d",
+									"fieldType": "sap.f.GridListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Active",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.f.GridListItem/oGridListItem/press.js",
+											"language": "javascript",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "gridListItem",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "b0c41c65-018d-4a08-b441-935579d10069",
+											"fieldName": "oVBox",
+											"fieldParent": "31877c08-fbca-4463-91c4-2f8a9a827657",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "justifyContent",
+													"grouping": "Properties",
+													"value": "SpaceBetween",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "height",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignItems",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignContent",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "7435fdc9-b917-41dd-9beb-1b34a3a5428c",
+													"fieldName": "oText",
+													"fieldParent": "b0c41c65-018d-4a08-b441-935579d10069",
+													"fieldType": "nep.bootstrap.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{start},{end}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "margin",
+															"grouping": "Properties",
+															"value": "Margin0",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textAlignment",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Label",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "gridListItemText",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Formatter",
+															"value": "Anonymous Function",
+															"script": "file://event/nep.bootstrap.Text/oText/text.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "e353b937-409c-45a0-964b-e53e0b1cc6f2",
+							"fieldName": "oHBoxAssignment",
+							"fieldParent": "ae47c840-69b8-479a-f5a2-876f800e5129",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "b0ad6d44-410d-4bf8-8b3e-ef54694959d0",
+									"fieldName": "oButtonAssign",
+									"fieldParent": "e353b937-409c-45a0-964b-e53e0b1cc6f2",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Assign Directly",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiTinyMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://fa-solid/user",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.Button/oButtonAssign/press.script",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "144a55ae-224f-4537-d4f8-107a68c61420",
+									"fieldName": "oButtonApprove",
+									"fieldParent": "e353b937-409c-45a0-964b-e53e0b1cc6f2",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Assign with Approval",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiTinyMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://fa-solid/user",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.Button/oButtonApprove/press.script",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "43f1d52a-03af-4ee9-dfa5-1f7cedbc0bfd",
+					"fieldName": "APIs",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "f514e85b-68e7-425c-a2d7-4ef9d25ab88e",
+					"fieldName": "Scripts",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "0ff729d2-98ce-47c1-ee7b-45b02cd6a60d",
+					"fieldName": "MessageBoxes",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "0a6c5fb6-b7b5-4986-8c05-142737d81543",
+							"fieldName": "oMessageBoxAssigned",
+							"fieldParent": "0ff729d2-98ce-47c1-ee7b-45b02cd6a60d",
+							"fieldType": "sap.m.MessageBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Assignment Successful",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "This Work order has been assigned successfully to the engineer.",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "SUCCESS",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "default",
+									"grouping": "Properties",
+									"value": "OK",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "callback",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.MessageBox/oMessageBoxAssigned/callback.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "102fb689-9392-4a95-b7a0-271debdf73f5",
+							"fieldName": "oMessageBoxUserUnavailable",
+							"fieldParent": "0ff729d2-98ce-47c1-ee7b-45b02cd6a60d",
+							"fieldType": "sap.m.MessageBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Engineer Unavailable",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "The selected Engineer has no availability for this work on the selected Date. Please rearrange it accordingly.",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "ERROR",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "abcaf223-89a2-49b7-c6ec-8e0522c0a115",
+							"fieldName": "oMessageBoxUserNTime",
+							"fieldParent": "0ff729d2-98ce-47c1-ee7b-45b02cd6a60d",
+							"fieldType": "sap.m.MessageBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Please fill in all required Info",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Please indicate an engineer and a Date/Time for the work",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "ERROR",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "110da131-7779-450a-8a09-e31c9ec12cb6",
+					"fieldName": "oRestAPIAssign",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "6b4aa00f-47b8-ed11-a8e0-000d3ada944e",
+					"restOperation": "490b4e82-843e-4e88-eb9e-722b3b994716",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/oRestAPIAssign/ajaxSuccess.js",
+							"language": "javascript",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxError",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/oRestAPIAssign/ajaxError.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "8fdf2574-a15d-490f-9b82-a4008fd52750",
+					"fieldName": "oRestAPIApproval",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "6c644516-48b8-ed11-a8e0-000d3ada944e",
+					"restOperation": "0d1dca8d-33bd-4922-b71a-d7dd41610ca8",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/oRestAPIApproval/ajaxSuccess.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "3f5ab2b5-bebd-47fd-9428-fa78534ef6ea",
+					"fieldName": "oRestAPIGetDetails",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "2a245de4-06bc-ed11-a8e0-000d3ada944e",
+					"restOperation": "07597f33-75a8-4222-9b46-b585c2d1c044",
+					"request": [
+						{
+							"name": "order",
+							"value": "{\"workoperation\": \"ASC\"}",
+							"parent": "RequestParameter",
+							"expression": ""
+						}
+					],
+					"response": [
+						{
+							"status": 200,
+							"dataId": "29237b80-a7f8-45c2-fa3c-0c815c39b379",
+							"modelFieldNo": "8ab76d99-a749-4ee4-df2b-61ef0975ed49"
+						}
+					],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "4538cae0-b487-4adc-dae9-b5e7d89371eb",
+					"fieldName": "oRestAPIGetIssue",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "da01b4e7-3bc7-ed11-a8e0-000d3ada944e",
+					"restOperation": "5417bfa1-2eeb-4c2c-d1a5-8128b6ab2117",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "0eabe8cb-f042-4722-acfa-caed52b74e33",
+					"fieldName": "oRestAPIGetUsers",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "a057fcb1-39ca-ed11-a8e0-000d3ada944e",
+					"restOperation": "9f2f6801-aa76-4ea0-ed8d-88165803e67d",
+					"request": [
+						{
+							"name": "order",
+							"value": "{\"username\": \"ASC\"}",
+							"parent": "RequestParameter",
+							"expression": ""
+						}
+					],
+					"response": [
+						{
+							"status": "200",
+							"dataId": "eef5611a-3e74-4c77-cd4b-857fc2bdf574",
+							"modelFieldNo": "9dfefb33-2fc2-4c3d-a9ae-e8b6534e5ca4"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "oSelectUser",
+							"script": "oSelectUser",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "0fc60b9c-bd29-4091-9523-4e579eed6d06",
+					"fieldName": "oJavascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/oJavascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "2983fae6-b0b6-4b71-8c9f-1c051143c66b",
+					"fieldName": "oJavascript1",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/oJavascript1.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "35b58817-705b-4d67-a309-48841cfed5d9",
+					"fieldName": "freeBusy",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/freeBusy.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "6042a32a-3472-4954-9902-0a083692b014",
+					"fieldName": "oMessageBoxAPPROVALSENT",
+					"fieldParent": 99999,
+					"fieldType": "sap.m.MessageBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Assignment sent for Approval",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "This Work order has been successfully sent for approval to the engineer. ",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "icon",
+							"grouping": "Properties",
+							"value": "SUCCESS",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "default",
+							"grouping": "Properties",
+							"value": "OK",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "callback",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/sap.m.MessageBox/oMessageBoxAPPROVALSENT/callback.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.3.24.1230",
+	"application": "urenco_issue_assignment",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": true,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "da01b4e7-3bc7-ed11-a8e0-000d3ada944e",
+			"name": "urenco_apiTable_issues",
+			"ver": "23.3.23.1522"
+		},
+		{
+			"id": "a057fcb1-39ca-ed11-a8e0-000d3ada944e",
+			"name": "urenco_apiTable_urencoUserEngineers",
+			"ver": "23.3.24.1150"
+		},
+		{
+			"id": "6c644516-48b8-ed11-a8e0-000d3ada944e",
+			"name": "DavidTeamsNotifyMailAndCalendarWithAPPREJ",
+			"ver": "23.3.6.123"
+		},
+		{
+			"id": "6b4aa00f-47b8-ed11-a8e0-000d3ada944e",
+			"name": "DavidTeamsNotifyMailAndCalendar",
+			"ver": "23.3.6.123"
+		},
+		{
+			"id": "2a245de4-06bc-ed11-a8e0-000d3ada944e",
+			"name": "API tnv_workoperations",
+			"ver": "23.3.6.108"
+		}
+	],
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e"
+}

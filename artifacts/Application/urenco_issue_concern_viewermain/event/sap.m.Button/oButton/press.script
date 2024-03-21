@@ -1,0 +1,34 @@
+// console.log(oComboBox.getSelectedKey());
+// debugger;
+// if (oComboBox.getSelectedKey() === 0) {
+//     options = {
+//         parameters: {
+//             //where: JSON.stringify({ issueStatusID: oComboBox.getSelectedKey() }), // Optional
+//             sort: "issueID", // Optional
+//         },
+//     };
+// } else {
+//     options = {
+//         parameters: {
+//             where: JSON.stringify({ issueStatusID: oComboBox.getSelectedKey() }), // Optional
+//             sort: "issueID", // Optional
+//         },
+//     };
+// }
+// debugger;
+
+var optionsAPI;
+
+optionsAPI = {
+        parameters: {
+            sort: "issueID", // Optional
+        },
+}
+
+if (parseInt(oComboBox.getSelectedKey()) !== 0) {
+    Object.assign(optionsAPI.parameters, { where: JSON.stringify({ issueStatusID: parseInt(oComboBox.getSelectedKey()) }) })
+}
+
+apioRestAPIGetIssue(optionsAPI);
+
+oApp.setBusy(true);

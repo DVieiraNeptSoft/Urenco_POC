@@ -1,0 +1,228 @@
+{
+	"id": "e67552a2-55ca-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-24T15:42:17.800Z",
+	"createdBy": "gabriel.andrade@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "eb75fd9d-94ae-4e16-c855-46391109b6f7",
+			"fieldName": "oSplitApp1",
+			"fieldParent": 0,
+			"fieldType": "sap.m.SplitApp",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "9a230b47-399a-4af3-b311-042759ccb29a",
+					"fieldName": "oPage",
+					"fieldParent": "eb75fd9d-94ae-4e16-c855-46391109b6f7",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "position",
+							"grouping": "Parent",
+							"value": "addMasterPage",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "bc9bfe8b-4adf-48e2-cab4-04cf65352a0e",
+					"fieldName": "oPage1",
+					"fieldParent": "eb75fd9d-94ae-4e16-c855-46391109b6f7",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "position",
+							"grouping": "Parent",
+							"value": "addDetailPage",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "c2f875c1-3274-4a05-9247-92e7f39e06cf",
+					"fieldName": "oSplitterLayoutData",
+					"fieldParent": "eb75fd9d-94ae-4e16-c855-46391109b6f7",
+					"fieldType": "sap.ui.layout.SplitterLayoutData",
+					"script": "",
+					"customComponent": false,
+					"refObject": "oPage",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "size",
+							"grouping": "Properties",
+							"value": "50%",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": "b8bc428d-d582-4d66-cba3-4d9cd023fa5a",
+			"fieldName": "oApp",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"disabled": true,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "6fd0f55a-7ef5-488c-e57d-895e1a27d17a",
+					"fieldName": "oPageList",
+					"fieldParent": "b8bc428d-d582-4d66-cba3-4d9cd023fa5a",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"disabled": true,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "position",
+							"grouping": "Parent",
+							"value": "addMasterPage",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "9b87f7ca-4a31-4c41-f7d0-dfd7bc5640ac",
+							"fieldName": "oObjectHeader",
+							"fieldParent": "6fd0f55a-7ef5-488c-e57d-895e1a27d17a",
+							"fieldType": "sap.m.ObjectHeader",
+							"script": "",
+							"customComponent": false,
+							"disabled": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "c076d8f5-4a0b-46db-9e22-03ce56bfb40a",
+							"fieldName": "oTable",
+							"fieldParent": "6fd0f55a-7ef5-488c-e57d-895e1a27d17a",
+							"fieldType": "sap.ui.table.Table",
+							"script": "",
+							"customComponent": false,
+							"disabled": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "8c5dd49f-074d-4774-ae56-dce3138542db",
+					"fieldName": "oPageDetail",
+					"fieldParent": "b8bc428d-d582-4d66-cba3-4d9cd023fa5a",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"disabled": true,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "position",
+							"grouping": "Parent",
+							"value": "addDetailPage",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": "653e2276-79c9-40aa-8be2-486fe28d8ec4",
+			"fieldName": "oSplitApp",
+			"fieldParent": 0,
+			"fieldType": "sap.m.SplitApp",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": []
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.3.24.1042",
+	"application": "urenco_list_app2",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e"
+}

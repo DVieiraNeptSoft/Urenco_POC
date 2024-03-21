@@ -1,0 +1,404 @@
+{
+	"id": "94813bc4-bfc8-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-22T14:42:28.496Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Emphasized",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "Details",
+				"tabAText": "Attachment",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Images",
+				"tab4Text": "",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": false,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": true,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": true,
+				"title": "Quality Concern Overview",
+				"subTitle": "View Concern Detail",
+				"avatarIcon": "sap-icon://quality-issue",
+				"avatarBackgroundColor": "Accent7",
+				"tab0Icon": "sap-icon://detail-view",
+				"tab3Icon": "sap-icon://fa-regular/file-image",
+				"_tab3Nav": {
+					"destinationType": "A",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetA": "urenco_imageviewer",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"formLayout": "ResponsiveGridLayout",
+				"columnsL": "2",
+				"columnsM": "2"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "issueID",
+				"label": "issueID",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reportedDate",
+				"label": "reportedDate",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reportedBy",
+				"label": "reportedBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "locationID",
+				"label": "locationID",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "modifiedDate",
+				"label": "modifiedDate",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "modifiedBy",
+				"label": "modifiedBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueDescription",
+				"label": "issueDescription",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "linkedIssueID",
+				"label": "linkedIssueID",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reviewedDate",
+				"label": "reviewedDate",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reviewedBy",
+				"label": "reviewedBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueStatusID",
+				"label": "issueStatusID",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueScore",
+				"label": "issueScore",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "images",
+				"label": "images",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "equipmentType",
+				"label": "equipmentType",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "equipmentID",
+				"label": "equipmentID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "component",
+				"label": "component",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "position",
+				"label": "position",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueCategory",
+				"label": "issueCategory",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueType",
+				"label": "issueType",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "referenceCode",
+				"label": "referenceCode",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "whosAffected",
+				"label": "whosAffected",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "gpsLocation",
+				"label": "gpsLocation",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "location",
+				"label": "location",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "equipmentDescription",
+				"label": "equipmentDescription",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentComplexity",
+				"label": "assessmentComplexity",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentRisk",
+				"label": "assessmentRisk",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentCost",
+				"label": "assessmentCost",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentProjectType",
+				"label": "assessmentProjectType",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "userAssigned",
+				"label": "userAssigned",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "dateAssigned",
+				"label": "dateAssigned",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "timeAssigned",
+				"label": "timeAssigned",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": true,
+				"visible": true,
+				"name": "issueID",
+				"text": "issueID",
+				"fieldPos": 1
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "issueCategory",
+				"text": "issueCategory",
+				"fieldPos": 2
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "issueType",
+				"text": "issueType",
+				"fieldPos": 3
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "reportedDate",
+				"text": "reportedDate",
+				"fieldPos": 4
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "reportedBy",
+				"text": "reportedBy",
+				"fieldPos": 5
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "modifiedBy",
+				"text": "modifiedBy",
+				"fieldPos": 6
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "issueDescription",
+				"text": "issueDescription",
+				"fieldPos": 7
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "reviewedDate",
+				"text": "reviewedDate",
+				"fieldPos": 8
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "reviewedBy",
+				"text": "reviewedBy",
+				"fieldPos": 9
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "issueScore",
+				"text": "issueScore",
+				"fieldPos": 10
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "equipmentType",
+				"text": "equipmentType",
+				"fieldPos": 11
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "gpsLocation",
+				"text": "gpsLocation",
+				"fieldPos": 12
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "issueID",
+				"text": "issueID",
+				"enableFilter": false,
+				"fieldPos": 13
+			},
+			{
+				"name": "issueDescription",
+				"text": "issueDescription",
+				"fieldPos": 14
+			}
+		],
+		"defaultVariant": {
+			"id": "3a194836-b9f4-441e-b9c5-7194465e7261",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "urenco_issuedetail",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "c80f5dec-3ac7-ed11-a8e0-000d3ada944e",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.3.27.1949",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

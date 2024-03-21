@@ -1,0 +1,27 @@
+<!-- <figure class="highcharts-figure">
+    <div id="container"></div>
+</figure> -->
+
+
+<!-- <div id="highcharts-c2d49680-62b7-4e30-beba-2073fe973453"></div> -->
+<div id='highchart-container'></div>
+
+<div class='dx-viewport demo-container' width='800px'>
+    <div id='chart-demo' width='800px'>
+
+
+        <div id='chart_bar' width='800px'></div>
+        <p>
+        <p>
+        <div id="chart_line"></div>
+
+        <!-- <div class="options">
+            <div class="caption">Options</div>
+            <div class="option">
+                <span>Series Type</span>
+                <div id="types"></div>
+            </div>
+        </div> -->
+
+    </div>
+</div>

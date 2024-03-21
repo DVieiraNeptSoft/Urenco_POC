@@ -1,0 +1,76 @@
+let long, lat, gps;
+
+const context = oEvent.oSource.getBindingContext();
+
+// Get Single Field
+// const value = context.getProperty("yourField");
+
+// Get Entire Model
+const data = context.getObject();
+modeloIconTabBar.setData(data);
+oApp.toDetail(oPageDetail);
+
+switch (data.issueStatusID) {
+    case 1:
+        oObjectStatus.setText("Initial");
+        oObjectStatus.setState("None");
+        break;
+    case 3:
+        oObjectStatus.setText("BAU Initial");
+        oObjectStatus.setState("Warning");
+        break;
+    case 4:
+        oObjectStatus.setText("Project Initial");
+        oObjectStatus.setState("Warning");
+        break;
+    case 5:
+        oObjectStatus.setText("BAU Assigned");
+        oObjectStatus.setState("Success");
+        break;
+    case 6:
+        oObjectStatus.setText("Project Assigned");
+        oObjectStatus.setState("Success");
+        break;
+}
+
+oObjectStatus.text;
+
+var options = {
+    parameters: {
+        where: JSON.stringify({ equipmentID: data.equipmentID }),
+    },
+};
+
+apioRestAPIGetEquipment(options);
+
+//Carrega imagens
+
+var correctImageFormat;
+var dataSubset = data;
+var images = dataSubset.images;
+
+if (images !== undefined && images !== "[]") {
+    try {
+        // Execute your logic
+        correctImageFormat = JSON.parse(images);
+        // dataSubset.images = correctImageFormat;
+        oIconTabPictures.setCount(correctImageFormat.length);
+        modeloCarousel.setData(correctImageFormat);
+    } catch (err) {
+        //     // Error handling
+        //     // console.log(err.message);
+    }
+} else {
+    modeloCarousel.setData();
+    oIconTabPictures.setCount(0);
+}
+
+console.log(" ## MAP ## ");
+
+//Carrega Mapa
+gps = dataSubset.gpsLocation;
+lat = gps.substr(gps.indexOf("Latitude: ") + 10, gps.length - gps.indexOf("Longitude: ") - 10).trimEnd();
+long = gps.substr(gps.indexOf("Longitude: ") + 11, gps.length - gps.indexOf("Longitude: ") + 11).trimEnd()
+
+createMap(lat, long);
+

@@ -1,0 +1,6 @@
+var issueID = modeloModelArrayDataIssue.getData()[0].issueID;
+
+sap.n.Shell.closeSidepanelTab("URENCO_ASSESSMENT_DETAIL|Concern " + issueID);
+
+sap.m.MessageToast.show("Assessment data saved successfully for Concern # " + issueID);
+

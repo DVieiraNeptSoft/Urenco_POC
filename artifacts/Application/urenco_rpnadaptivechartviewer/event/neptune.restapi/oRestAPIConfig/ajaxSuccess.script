@@ -1,0 +1,6 @@
+var RPNConfig = modeloModelArrayRPNConfig.getData();
+//RPNConfig[0].HigherBound
+//RPNConfig[0].LowerBound
+
+oTitleLower.setText("Lower bound: "+RPNConfig[0].LowerBound);
+oTitleUpper.setText("Upper bound: "+RPNConfig[0].HigherBound);

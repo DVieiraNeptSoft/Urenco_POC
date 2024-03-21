@@ -1,0 +1,159 @@
+{
+	"id": "a92b6654-3cc7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T16:29:05.650Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "5bc10621-6691-4757-f6b4-9eb4e5e5bc10",
+			"method": "GET",
+			"path": "/urenco_issueimages",
+			"description": "",
+			"parameters": [
+				{
+					"name": "issueID",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"id": "ea2461f9-b0ee-46a7-bb31-9af35bb396bf",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "b69fd12c-a571-4317-f742-b7cd0416e1f5",
+							"name": "issueImage_struc",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": []
+		},
+		{
+			"id": "63c70176-2892-435b-ae2a-6ec3dc98672b",
+			"method": "POST",
+			"path": "/urenco_issueimages",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "a8eb6f8d-e4bf-4c5b-aa08-f9c9d6b5a63e",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"items": [],
+					"name": "issueImage_struc"
+				}
+			],
+			"auth": [],
+			"endpoints": []
+		}
+	],
+	"definitions": [
+		{
+			"id": "a59d6258-fc29-445a-b3dc-66d349e3447d",
+			"name": "issueImage_struc",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "1e8528bd-08cc-41f9-84b0-ddf6285d94b7",
+					"name": "issueImageID",
+					"objectType": "number",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "cf82c0b4-3ae8-4026-fb04-c0c7c608c61c",
+					"name": "issueID",
+					"objectType": "number",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "873dde99-3abf-4013-90aa-789a0a615009",
+					"name": "issueImage",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "urenco_apiTable_issueImages",
+	"endpoint": "/api/entity",
+	"ver": "23.3.21.1150",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

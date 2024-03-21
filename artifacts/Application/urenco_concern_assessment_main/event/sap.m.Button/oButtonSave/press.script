@@ -1,0 +1,68 @@
+var userName;
+var todayDate;
+var oIssue = modeloPageDetail.getData();
+
+todayDate = new Date().toJSON();
+
+//Validate that all fields have been completed
+oSelectComplexity.setValueState("None");
+oSelectRisk.setValueState("None");
+oInputCost.setValueState("None");
+oSelectProjectType.setValueState("None");
+
+// **** VALIDATION SECTION ******
+//Return to get out of the script.
+if (oSelectComplexity.getSelectedKey() === "") {
+    oSelectComplexity.setValueState("Error");
+    sap.m.MessageToast.show("Please select a level of Complexity");
+    return;
+}
+
+if (oSelectRisk.getSelectedKey() === "") {
+    oSelectRisk.setValueState("Error");
+    sap.m.MessageToast.show("Please select a level of Risk");
+    return;
+}
+
+if (oInputCost.getValue() === "") {
+    oInputCost.setValueState("Error");
+    sap.m.MessageToast.show("Please enter an estimated Cost");
+    return;
+}
+
+if (oSelectProjectType.getSelectedKey() === "") {
+    oSelectProjectType.setValueState("Error");
+    sap.m.MessageToast.show("Please select a Project type");
+    return;
+}
+
+//Get Username
+if (sap.n !== undefined) {
+    userName = AppCache.userInfo.name; //"Daniel Vieira" or "Gabriel Andrade"
+} else {
+    userName = "User Test";
+}
+
+var issueObject = {
+    issueID: oIssue.issueID,
+
+    reviewedBy: userName,
+    reviewedDate: todayDate,
+
+    assessmentComplexity: oSelectComplexity.getSelectedKey(),
+    assessmentRisk: oSelectRisk.getSelectedKey(),
+    assessmentCost: oInputCost.getValue(),
+    assessmentProjectType: oSelectProjectType._getSelectedItemText(),
+
+    issueStatusID: parseInt(oSelectProjectType.getSelectedKey()),
+};
+
+var options = {
+    parameters: {
+        where: JSON.stringify({ issueID: oIssue.issueID }),
+    },
+    data: issueObject,
+};
+
+oApp.setBusy(true);
+apioRestAPISaveIssue(options);

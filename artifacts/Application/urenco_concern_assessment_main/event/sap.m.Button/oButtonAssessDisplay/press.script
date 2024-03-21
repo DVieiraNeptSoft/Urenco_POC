@@ -1,0 +1,62 @@
+// To be used if you want to start a new App in Dialog or inside the Launchpad
+// If you want to handle the same functionality as the Launchpad do when pressing a tile, use Tile Press
+
+// Load App
+// AppCache.Load("YourApp");
+
+// // Load App as Dialog
+// AppCache.Load("YourApp", {
+//     dialogShow: true,
+//     dialogHeight: "600px",
+//     dialogWidth: "1024px",
+//     dialogTitle: "Some title",
+//     dialogModal: false,
+// });
+
+// // Defaults
+// // dialogHeight = "90%";
+// // dialogWidth = "1200px";
+// // dialogTitle = "";
+// // dialogModal = false;
+
+// // Load App to device database
+// AppCache.Load("YourApp", {
+//     load: "download"
+// });
+
+// // Load App to device database and initialize
+// AppCache.Load("YourApp", {
+//     load: "init"
+// });
+
+// // Load App into parent object (example: sap.m.Page)
+// AppCache.Load("YourApp", {
+//     parentObject: yourObject
+// });
+
+
+// Complete options and their defaults
+AppCache.Load("URENCO_ISSUE_CONCERN_VIEWERMAIN", {
+    dialogShow: true,
+    dialogHeight: "90%",
+    dialogWidth: "1200px",
+    dialogTitle: "View Concern Images",
+    dialogIcon: "sap-icon://share",
+    dialogModal:false,
+    // dialogHideMinimize: false,
+    // dialogHideMosaic: false,
+    // dialogHideMaximize: false,
+    // onDialogclose: function () {
+    // },
+    // load: "init",
+    // parentObject: "",
+    // appGUID: "", // Override the default generated view id
+    // appPath: "", // Remote system - URL
+    // appAuth: "", // Remote system - authentication
+    // appType: "", // Remote system - app type
+    startParams: modeloPageDetail.oData.issueID, // Custom JSON parsed parameter that is passed to init/beforeDisplay events
+    // openFullscreen: false,
+    // rootDir: "", // Override the root directory for the application view files
+    // sapICFNode: "", // Remote system - SAP ICF Node
+    // defaultLanguage: "" // Set default language (use a 2 letter ISO code). If there's no content in that language, components will default to their default object properties (no translation used).
+});

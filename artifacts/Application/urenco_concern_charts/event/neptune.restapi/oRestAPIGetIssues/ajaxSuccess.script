@@ -1,0 +1,8 @@
+var options = {
+    parameters: {
+        // "where": "", // Optional 
+        // "sort": "" // Optional 
+    }
+};
+
+apioRestAPIGetIssueStatus(options);

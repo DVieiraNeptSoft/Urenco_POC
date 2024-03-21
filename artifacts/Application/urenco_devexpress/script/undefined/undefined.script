@@ -1,0 +1,77 @@
+#chart {
+  height: 440px;
+  width: 800px;
+}
+
+.tooltip-header {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.tooltip-body {
+  width: 170px;
+}
+
+.tooltip-body .series-name {
+  font-weight: normal;
+  opacity: 0.6;
+  display: inline-block;
+  line-height: 1.5;
+  padding-right: 10px;
+  width: 126px;
+}
+
+.tooltip-body .value-text {
+  display: inline-block;
+  line-height: 1.5;
+  width: 30px;
+}
+
+.options {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.option {
+  margin-top: 10px;
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option > span {
+  margin-right: 10px;
+}
+
+.option > .dx-widget {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#gauge1 {
+  height: 200px;
+  width: 100%;
+}
+
+#gauge2 {
+  height: 200px;
+  width: 100%;
+}
+
+#gauge3 {
+  height: 200px;
+  width: 100%;
+}
+
+.bkgWhite {
+  background-color: white;
+}
+
+.pageBKG .sapMPage, .sapMPage > section {
+  background-color: white;
+}

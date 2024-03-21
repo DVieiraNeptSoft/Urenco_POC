@@ -1,0 +1,129 @@
+{
+	"id": "c15d92eb-a1c8-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-22T11:08:49.606Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"enableValues": true,
+				"enableLeftPanel": true,
+				"enableRightPanel": true,
+				"enableVariant": false,
+				"showLeftPanel": false,
+				"showRightPanel": false,
+				"enableClose": false,
+				"autoRun": true,
+				"title": "RPN Weighting"
+			},
+			"form": {},
+			"table": {
+				"showRowTotal": true,
+				"showColTotal": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "valueWeighted",
+				"label": "valueWeighted",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "count",
+				"label": "count",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"filter": true,
+				"name": "valueWeighted",
+				"text": "Occurrences",
+				"fieldPos": 1
+			},
+			{
+				"filter": true,
+				"name": "count",
+				"text": "Score",
+				"fieldPos": 2
+			}
+		],
+		"defaultVariant": {
+			"id": "3f911cee-9b43-4910-9380-2cc5cd4e42d5",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [
+				{
+					"filter": true,
+					"name": "valueWeighted",
+					"text": "Occurrences",
+					"fieldPos": 1,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"val": [
+				{
+					"filter": true,
+					"name": "count",
+					"text": "Score",
+					"fieldPos": 2,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"inclusions": {},
+			"exclusions": {},
+			"rendererName": "Column Chart",
+			"aggregatorName": "Maximum"
+		},
+		"id": "C15D92EB-A1C8-ED11-A8E0-000D3ADA944E"
+	},
+	"name": "urenco_RPNPriorityChart",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "fc9320ba-a1c8-ed11-a8e0-000d3ada944e",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.3.22.1112",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_bi",
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

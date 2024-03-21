@@ -1,0 +1,66 @@
+{
+	"id": "5002c075-07c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T10:10:40.326Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "57394477-a1eb-48a8-cc61-1306f3857d3b",
+			"fieldName": "actionID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "dff736dc-cc93-4fc5-f37a-1f32e41f04cc",
+			"fieldName": "createdDate",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ce3394c4-b3e6-46cf-a59b-f20a480a2564",
+			"fieldName": "locationID",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b479413b-439f-4c14-8f08-06d5f7d309e1",
+			"fieldName": "actionStatusID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "70b15d33-160c-469d-83e2-a6f5f68d2047",
+			"fieldName": "modifiedDate",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "af20fbfc-53d7-47d1-8906-69b8a49b54f3",
+			"fieldName": "modifiedBy",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "69d26c9d-71f1-4fcc-c704-089fbdab8be4",
+			"fieldName": "actionDescription",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "urenco_actions",
+	"description": null,
+	"ver": "23.3.20.1124",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

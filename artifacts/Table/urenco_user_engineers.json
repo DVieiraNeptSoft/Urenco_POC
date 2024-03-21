@@ -1,0 +1,41 @@
+{
+	"id": "44a8210d-39ca-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-24T11:43:13.150Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "b9b65ace-ea7b-44b2-a8a1-4210cac68e24",
+			"fieldName": "username",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "username",
+			"isNullable": true
+		},
+		{
+			"id": "e7629f2a-a547-4656-ba74-ac4f178af8a4",
+			"fieldName": "fullname",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "fullname",
+			"isNullable": true
+		},
+		{
+			"id": "cab5c539-752c-42f4-cfdd-8b8ee431267f",
+			"fieldName": "email",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "email",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "urenco_user_engineers",
+	"description": null,
+	"ver": "23.3.24.1245",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

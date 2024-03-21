@@ -1,0 +1,241 @@
+{
+	"id": "b04c9c45-09c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T10:23:37.843Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "46cba3a6-764e-4cad-ff3e-5b205c171618",
+			"fieldName": "issueID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "b3641110-5172-46d6-f889-2b5cc322c0d4",
+			"fieldName": "reportedDate",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ae100c37-8f17-4dc3-869e-04131afd538f",
+			"fieldName": "reportedBy",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d5932be6-85d3-44c2-bbb3-eab35d74e4b1",
+			"fieldName": "locationID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d8ff08d3-17e8-45f2-b2e5-73d5fd0e4cf4",
+			"fieldName": "modifiedDate",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "549c4ff9-88dd-421a-a6ef-c135974cb1db",
+			"fieldName": "modifiedBy",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "338d9757-c325-4381-9480-a598477b47f7",
+			"fieldName": "issueDescription",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5bc687a9-155c-4211-831f-3fc251b59f18",
+			"fieldName": "linkedIssueID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "cec8e814-46c8-40ac-8069-9ba851e367e6",
+			"fieldName": "reviewedDate",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d1395e26-4f9a-48ce-d88b-74b1d237892c",
+			"fieldName": "reviewedBy",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ace05414-f9b7-421f-c327-97c497de3719",
+			"fieldName": "issueStatusID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5e649dd2-6c43-4d2a-8c28-ff74b7072c8f",
+			"fieldName": "issueScore",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ae7cb63b-bcc7-417d-b965-100ed5132d28",
+			"fieldName": "images",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "59958261-51db-4a02-c42b-e28efe343efb",
+			"fieldName": "equipmentType",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "26fb8ed1-9785-4a84-e564-cb72d8cc5ddb",
+			"fieldName": "equipmentID",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d4abf46f-5f49-4997-8abd-85c72477f9d8",
+			"fieldName": "component",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "520bebf4-5a76-401b-8325-bff2c3f8b683",
+			"fieldName": "position",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "894b643e-cadb-4889-91b5-65375cc44e82",
+			"fieldName": "issueCategory",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "26daf3e1-454e-424b-e7ee-b3ea870c51c2",
+			"fieldName": "issueType",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8b1b5a29-eba2-41c6-cff4-80bdc99eedbd",
+			"fieldName": "referenceCode",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d464ca03-21ba-42b6-9589-c97527536901",
+			"fieldName": "whosAffected",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ca619b57-a6f5-47c6-cdc6-cf56ed37f0e2",
+			"fieldName": "gpsLocation",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2c6fbbc6-73c5-447f-d783-4dd5a621b130",
+			"fieldName": "location",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "930a8c6c-12e1-4767-cab4-ed6fcd26b995",
+			"fieldName": "equipmentDescription",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "513daf8b-0244-4a83-bd5c-b2525798f732",
+			"fieldName": "assessmentComplexity",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7638d173-c1d6-4282-bf8f-cb483e5531ea",
+			"fieldName": "assessmentRisk",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4b5548ef-b6dd-4ddc-9efd-da212fff7658",
+			"fieldName": "assessmentCost",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ac1fcd0d-34dd-4f48-d7a8-3140ccf77dc6",
+			"fieldName": "assessmentProjectType",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "cad330d9-b408-496b-d247-18378d415f1f",
+			"fieldName": "userAssigned",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "00aca71c-08fe-4dfa-b4be-31366038f17f",
+			"fieldName": "dateAssigned",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "65c7a03a-ffdc-4af4-b501-8c9467ea0904",
+			"fieldName": "timeAssigned",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4cac8776-ab04-4c32-cb62-704c4f64d0cb",
+			"fieldName": "comments",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "urenco_issues",
+	"description": null,
+	"ver": "23.3.28.126",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

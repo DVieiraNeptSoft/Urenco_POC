@@ -1,0 +1,69 @@
+{
+	"id": "ce97b74c-c7c8-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-22T15:36:23.973Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"interface": [
+		{
+			"id": "303b3359-4a42-49a7-df1c-8506e513a767",
+			"parent": "",
+			"name": "issueScore",
+			"objectType": "number",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "73462688-9cd4-4f34-f587-56f78136fe4b",
+			"result": "Success",
+			"items": [
+				{
+					"id": "832387fc-5d1a-480c-d375-838d454ef747",
+					"field": "303b3359-4a42-49a7-df1c-8506e513a767",
+					"operator": "lessThanInclusive",
+					"value": "49"
+				}
+			]
+		},
+		{
+			"id": "3da19ac6-9529-4128-a513-e6d831eff4b2",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "cd0f9b61-d67a-4578-cf8b-9ec8e8d13a6f",
+					"field": "303b3359-4a42-49a7-df1c-8506e513a767",
+					"operator": "equal",
+					"value": "50"
+				}
+			]
+		},
+		{
+			"id": "501b62a4-0a2d-4961-c495-b11190d999fb",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "e3487245-b04a-4710-c5af-99020da04bfc",
+					"field": "303b3359-4a42-49a7-df1c-8506e513a767",
+					"operator": "lessThanInclusive",
+					"value": "69"
+				}
+			]
+		},
+		{
+			"id": "68c96de4-58d3-4a50-beaf-fa563d00d9e2",
+			"result": "Error",
+			"items": [
+				{
+					"id": "8a487389-eb35-4ff0-e5ea-abd1ed177bdf",
+					"field": "303b3359-4a42-49a7-df1c-8506e513a767",
+					"operator": "greaterThanInclusive",
+					"value": "70"
+				}
+			]
+		}
+	],
+	"name": "urenco_rules_issue",
+	"description": "",
+	"ver": "23.3.23.1637",
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"roles": []
+}

@@ -1,0 +1,30 @@
+{
+	"id": "87a3cd84-d4c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-21T10:38:32.230Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "691baeb5-bc46-44ff-c43e-6c35a87c7041",
+			"fieldName": "equipTypeID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "c99bede7-cf41-416d-a637-2667b07a944f",
+			"fieldName": "equipmentType",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "urenco_equipment_types",
+	"description": null,
+	"ver": "23.3.21.1139",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

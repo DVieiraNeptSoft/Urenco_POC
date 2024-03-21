@@ -1,0 +1,31 @@
+{
+	"id": "ee3d7dc7-08c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T10:20:06.773Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "3271ca66-215c-43af-c10a-3d5255e7caa1",
+			"fieldName": "linkedIssueID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "5e66d37d-d273-4939-e4ff-c86a08a8a822",
+			"fieldName": "issueID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "urenco_linkedissues",
+	"description": null,
+	"ver": "23.3.20.1120",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

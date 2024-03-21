@@ -1,0 +1,20 @@
+{
+	"id": "58bde90d-65ca-ed11-a8e0-000d3a669031",
+	"createdAt": "2023-03-24T16:58:10.256Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "SendRaisedConcernEmail",
+	"ver": "23.3.24.1730",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "46299c79-e3c7-ed11-a8e0-000d3ada944e",
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e"
+}

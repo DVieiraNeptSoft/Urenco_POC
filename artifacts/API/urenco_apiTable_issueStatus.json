@@ -1,0 +1,114 @@
+{
+	"id": "142d4570-3dc7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T16:37:01.900Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "5fd028d1-a7a5-41c2-fb99-8f8a6d2820b4",
+			"method": "GET",
+			"path": "/urenco_issuestatus",
+			"description": "",
+			"parameters": [
+				{
+					"name": "where",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				},
+				{
+					"name": "sort",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"id": "d1b12f9c-04fd-48f5-88db-9363e04cad05",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "b6f17239-71bb-4386-83e3-56889886b4dc",
+							"name": "issueStatus_struc",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": []
+		}
+	],
+	"definitions": [
+		{
+			"id": "a0f99582-a3d8-4a3d-8c2b-415de78fe529",
+			"name": "issueStatus_struc",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "85c060dc-9aba-43a3-bfa6-12d5cbd3af81",
+					"name": "issueStatusID",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "2f83874a-5f4b-4dd5-a935-8f2ac5e2519e",
+					"name": "issueStatus",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "urenco_apiTable_issueStatus",
+	"endpoint": "/api/entity",
+	"ver": "23.3.21.155",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

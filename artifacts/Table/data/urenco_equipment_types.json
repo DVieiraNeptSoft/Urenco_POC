@@ -1,0 +1,47 @@
+[
+	{
+		"id": "c3c6b1e6-a0fd-4b4e-a15a-3552a2c2fb70",
+		"createdAt": "1679395248447",
+		"updatedAt": "1679395248447",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"equipTypeID": 5,
+		"equipmentType": "Office Monitor"
+	},
+	{
+		"id": "afd5b043-0725-4cc1-a243-5fbbc39af35d",
+		"createdAt": "1679395248447",
+		"updatedAt": "1679395248447",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"equipTypeID": 3,
+		"equipmentType": "Nuclear Reactor"
+	},
+	{
+		"id": "941e5dc6-d3a8-48af-92ce-9689d3eea18d",
+		"createdAt": "1679395248447",
+		"updatedAt": "1679395248447",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"equipTypeID": 2,
+		"equipmentType": "Exhaust Fan"
+	},
+	{
+		"id": "6dbc0029-4a22-476b-af22-ea4dadb3807e",
+		"createdAt": "1679395248447",
+		"updatedAt": "1679395248447",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"equipTypeID": 1,
+		"equipmentType": "Energy Storage System"
+	},
+	{
+		"id": "22ee3cd5-c8bb-499d-8368-7d4d227c4d53",
+		"createdAt": "1679395248447",
+		"updatedAt": "1679395248447",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"equipTypeID": 4,
+		"equipmentType": "Office Laptop"
+	}
+]

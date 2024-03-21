@@ -1,0 +1,450 @@
+{
+	"id": "0a75f952-d2c8-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-22T16:55:18.926Z",
+	"createdBy": "gabriel.andrade@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "Export to Excel",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "sap-icon://refresh",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": true,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": true,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"_navigationItemPress": {
+					"destinationType": "A",
+					"openAs": "S",
+					"butType": "Accept",
+					"destinationTargetF": "94813bc4-bfc8-ed11-a8e0-000d3ada944e",
+					"keyField": [],
+					"dialogIcon": "sap-icon://quality-issue",
+					"dialogTitle": "Concern",
+					"dialogTitleField": "issueID",
+					"destinationTargetA": "urenco_assessment_detail"
+				},
+				"avatarBackgroundColor": "Accent1",
+				"avatarIcon": "sap-icon://quality-issue",
+				"title": "Quality Concern Assessment",
+				"subTitle": "Perform assessment on existing issues",
+				"hideHeader": false
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent",
+				"enableAutoPopin": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentComplexity",
+				"label": "assessmentComplexity",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentCost",
+				"label": "assessmentCost",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentProjectType",
+				"label": "assessmentProjectType",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentRisk",
+				"label": "assessmentRisk",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "comments",
+				"label": "comments",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "component",
+				"label": "component",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "dateAssigned",
+				"label": "dateAssigned",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "equipmentDescription",
+				"label": "equipmentDescription",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "equipmentID",
+				"label": "equipmentID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "equipmentType",
+				"label": "equipmentType",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "gpsLocation",
+				"label": "gpsLocation",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "images",
+				"label": "images",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueCategory",
+				"label": "issueCategory",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueDescription",
+				"label": "issueDescription",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueID",
+				"label": "issueID",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueScore",
+				"label": "issueScore",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueStatusID",
+				"label": "issueStatusID",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueType",
+				"label": "issueType",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "linkedIssueID",
+				"label": "linkedIssueID",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "location",
+				"label": "location",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "locationID",
+				"label": "locationID",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "modifiedBy",
+				"label": "modifiedBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "modifiedDate",
+				"label": "modifiedDate",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "position",
+				"label": "position",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "referenceCode",
+				"label": "referenceCode",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reportedBy",
+				"label": "reportedBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reportedDate",
+				"label": "reportedDate",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reviewedBy",
+				"label": "reviewedBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reviewedDate",
+				"label": "reviewedDate",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "timeAssigned",
+				"label": "timeAssigned",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "userAssigned",
+				"label": "userAssigned",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "whosAffected",
+				"label": "whosAffected",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": false,
+				"name": "issueStatusID",
+				"text": "issueStatusID",
+				"fieldPos": 1,
+				"default": "1",
+				"required": false,
+				"selEqual": false,
+				"type": "Input"
+			},
+			{
+				"visible": true,
+				"name": "issueID",
+				"text": "Issue ID",
+				"fieldPos": 2,
+				"type": "Input"
+			},
+			{
+				"visible": true,
+				"name": "equipmentType",
+				"text": "Equipment Type",
+				"fieldPos": 3,
+				"type": "SingleSelect"
+			}
+		],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "issueID",
+				"text": "issueID",
+				"fieldPos": 4
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "equipmentType",
+				"text": "equipmentType",
+				"fieldPos": 5
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "equipmentID",
+				"text": "equipmentID",
+				"fieldPos": 6
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "whosAffected",
+				"text": "Who's Affected",
+				"fieldPos": 7,
+				"valueType": ""
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "reportedDate",
+				"text": "Reported Date",
+				"fieldPos": 8,
+				"formatter": "date01",
+				"type": ""
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "reportedBy",
+				"text": "Reported By",
+				"fieldPos": 9
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "issueDescription",
+				"text": "Description",
+				"fieldPos": 10
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "issueScore",
+				"text": "Issue Score",
+				"fieldPos": 11,
+				"valueType": "",
+				"type": "ObjectStatus",
+				"statusStateType": "Rule",
+				"statusStateRule": "CE97B74C-C7C8-ED11-A8E0-000D3ADA944E"
+			}
+		],
+		"defaultVariant": {
+			"id": "30a502d2-4ca0-4345-e71c-ff472b371b8a",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "urenco_assessment_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "c80f5dec-3ac7-ed11-a8e0-000d3ada944e",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.2.5.1428",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

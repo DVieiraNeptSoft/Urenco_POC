@@ -1,0 +1,10 @@
+var options = {
+    parameters: {
+        // "where": "", // Optional 
+        // "sort": "" // Optional 
+    }
+};
+
+apioRestAPIGetIssue(options);
+
+oApp.setBusy(true);

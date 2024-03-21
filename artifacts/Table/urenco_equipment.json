@@ -1,0 +1,44 @@
+{
+	"id": "d8b4d58b-32c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T15:19:05.573Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "6c3738e8-f7d1-4795-b191-24be46c03fa0",
+			"fieldName": "equipmentID",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "205e675d-6475-46c4-fda5-4973ee7bf25a",
+			"fieldName": "equipmentDescription",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e8f9c5e9-ca60-43e6-9bc6-787e932486bc",
+			"fieldName": "equipmentType",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "2c387018-1d5d-4dcc-9a58-05256c6c9927",
+			"fieldName": "locationID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "urenco_equipment",
+	"description": null,
+	"ver": "23.3.20.1653",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

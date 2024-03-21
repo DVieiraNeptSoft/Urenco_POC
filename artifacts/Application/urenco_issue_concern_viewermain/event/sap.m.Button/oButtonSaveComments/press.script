@@ -1,0 +1,19 @@
+var userName;
+var todayDate;
+var oIssue = modeloIconTabBar.getData();
+
+var issueObject = {
+    issueID: oIssue.issueID,
+
+    comments: oTextAreaComments.getValue(),
+};
+
+var options = {
+    parameters: {
+        where: JSON.stringify({ issueID: oIssue.issueID }),
+    },
+    data: issueObject,
+};
+
+oApp.setBusy(true);
+apioRestAPISaveIssue(options);

@@ -1,0 +1,278 @@
+{
+	"id": "3a520db6-9ec8-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-22T10:45:51.320Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "47def84d-ae72-4005-ebfe-9b9ba9e510a6",
+			"method": "POST",
+			"path": "/FuzzySearchOnLevel0Concerns",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": [
+						{
+							"id": "8494cd38-0c42-491d-9221-0625b044fdbb",
+							"name": "FuzzyResponse",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"serverScript": "bda2d3b0-44ff-4388-9b52-b8cdfd334807",
+			"content": [
+				{
+					"name": "FuzzyRequest",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "46a9d55c-e85b-485a-bcf3-1cae1ae52a8a",
+			"method": "GET",
+			"path": "/dropPowerBiTable",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "a90c4b28-7c3d-4467-b7fc-eca20350108d"
+		},
+		{
+			"id": "e4531c1f-8d16-40fb-f0b3-33acf0ac5c25",
+			"method": "POST",
+			"path": "/ReturnPriorityBasedOnRPNCireria",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": [
+						{
+							"id": "5b5aff46-48c9-499f-b07a-24e6e6ebe658",
+							"name": "Data",
+							"objectType": "object"
+						}
+					]
+				}
+			],
+			"serverScript": "883c3e4c-9cc8-ed11-a8e0-000d3ada944e",
+			"content": [
+				{
+					"name": "PriorityRequest",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "e3500806-97b4-4482-f9f7-5bab544d5eaa",
+			"method": "GET",
+			"path": "/getNewIssueID",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "6b0960fb-bbc8-ed11-a8e0-000d3ada944e"
+		},
+		{
+			"id": "63ca4c18-5e2d-4251-9267-63ae33dcd61a",
+			"method": "POST",
+			"path": "/SendRaisedConcernEmail",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "91afa8e2-4009-4293-9567-77cab31b5d35",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [
+				{
+					"objectType": "object",
+					"items": [],
+					"name": "email_struc"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "58bde90d-65ca-ed11-a8e0-000d3a669031"
+		}
+	],
+	"definitions": [
+		{
+			"id": "f6cb4878-ee01-4505-8e97-8673429d02df",
+			"name": "FuzzyRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "a0078af4-5782-4823-9bf0-55d5a22a3c02",
+					"name": "component",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "0044955e-0647-430a-d619-6a5df94c8146",
+					"name": "position",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "125d7d0e-d177-43cc-8d28-289bcda12794",
+			"name": "FuzzyResponse",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		},
+		{
+			"id": "1a673327-f7eb-40c5-ad6a-be1cde32819b",
+			"name": "PriorityRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		},
+		{
+			"id": "95f06025-e9a3-46e2-cf06-70eb2158c388",
+			"name": "Data",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		},
+		{
+			"id": "2383eb57-d81b-47cb-e99a-6fe41cf0f477",
+			"name": "email_struc",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "aee3af0b-c31d-4e3c-edf5-af911a6a62a0",
+					"name": "issueID",
+					"objectType": "integer",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "552ee505-a052-4afa-840b-48709a243642",
+					"name": "issueDescription",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "badbd22d-bd3f-47fc-8773-f31027fbd4aa",
+					"name": "reportedBy",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "urenco_apiScript",
+	"endpoint": "/api/serverscript/urenco_apiscript",
+	"ver": "23.3.24.173",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

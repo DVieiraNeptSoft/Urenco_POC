@@ -1,0 +1,12 @@
+// debugger;
+if (typeof start === "undefined" || start === null || start === "") { return; }  
+if (typeof end === "undefined" || end === null || end === "") { return; }  
+
+var formattedText = start + " " + end; 
+formattedText = moment(start, "DD/MM/YYYY, HH:mm:ss").format("HH:mm") + " - " + moment(end, "DD/MM/YYYY, HH:mm:ss").format("HH:mm");
+
+
+//var formattedText = start.split(', ')[1] + " " + end.split(', ')[1];
+
+
+return formattedText;

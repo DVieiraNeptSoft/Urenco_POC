@@ -1,0 +1,410 @@
+{
+	"id": "ed586c10-75c9-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-23T12:20:15.246Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Concern Assignment",
+				"subTitle": "Assign an Issue to an Engineer",
+				"avatarBackgroundColor": "Accent6",
+				"_navigationItemPress": {
+					"destinationType": "A",
+					"openAs": "S",
+					"butType": "Accept",
+					"destinationTargetA": "urenco_issue_assignment",
+					"dialogTitle": "Concern",
+					"dialogTitleField": "issueID",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "assessmentComplexity",
+				"label": "assessmentComplexity",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentCost",
+				"label": "assessmentCost",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentProjectType",
+				"label": "assessmentProjectType",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assessmentRisk",
+				"label": "assessmentRisk",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "component",
+				"label": "component",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "createdAt",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "createdBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "equipmentDescription",
+				"label": "equipmentDescription",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "equipmentID",
+				"label": "equipmentID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "equipmentType",
+				"label": "equipmentType",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "gpsLocation",
+				"label": "gpsLocation",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "id",
+				"label": "id",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "images",
+				"label": "images",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueCategory",
+				"label": "issueCategory",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueDescription",
+				"label": "issueDescription",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueID",
+				"label": "issueID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueScore",
+				"label": "issueScore",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueScoreColor",
+				"label": "issueScoreColor",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueStatus",
+				"label": "issueStatus",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueStatusID",
+				"label": "issueStatusID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "issueType",
+				"label": "issueType",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "linkedIssueID",
+				"label": "linkedIssueID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "location",
+				"label": "location",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "locationID",
+				"label": "locationID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "modifiedBy",
+				"label": "modifiedBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "modifiedDate",
+				"label": "modifiedDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "position",
+				"label": "position",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "referenceCode",
+				"label": "referenceCode",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reportedBy",
+				"label": "reportedBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reportedDate",
+				"label": "reportedDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reviewedBy",
+				"label": "reviewedBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "reviewedDate",
+				"label": "reviewedDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "updatedAt",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "updatedBy",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "whosAffected",
+				"label": "whosAffected",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "issueID",
+				"text": "Issue ID",
+				"fieldPos": 1,
+				"valueType": "",
+				"formatter": ""
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "equipmentType",
+				"text": "Equipment Type",
+				"fieldPos": 2
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "whosAffected",
+				"text": "Who's Affected",
+				"fieldPos": 3
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "issueStatus",
+				"text": "Issue Status",
+				"fieldPos": 4
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "reportedDate",
+				"text": "Reported Date",
+				"fieldPos": 5,
+				"formatter": "date01"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "reportedBy",
+				"text": "Reported By",
+				"fieldPos": 6
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "issueDescription",
+				"text": "Description",
+				"fieldPos": 7
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "issueScore",
+				"text": "issueScore",
+				"fieldPos": 8
+			}
+		],
+		"defaultVariant": {
+			"id": "08cfe09f-36ff-4c83-c5d0-acdcc109652a",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "urenco_issueAssignment",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "7da1def0-74c9-ed11-a8e0-000d3ada944e",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.3.23.2138",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

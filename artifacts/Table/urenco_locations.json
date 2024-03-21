@@ -1,0 +1,38 @@
+{
+	"id": "9189ea87-08c7-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-20T10:18:26.180Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "a4c96fe9-bfd5-4dba-9cc3-865ce877e30f",
+			"fieldName": "locationID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "425ac909-25ae-443f-817e-5fe3e1c988d3",
+			"fieldName": "locationName",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "640f25f7-98df-4408-a25a-311c0643d35c",
+			"fieldName": "locationStatusID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "urenco_locations",
+	"description": null,
+	"ver": "23.3.20.1118",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "a74000ca-02c7-ed11-a8e0-000d3ada944e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

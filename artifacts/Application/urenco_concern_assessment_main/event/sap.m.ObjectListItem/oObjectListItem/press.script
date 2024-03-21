@@ -1,0 +1,27 @@
+const context = oEvent.oSource.getBindingContext();
+
+// Get Single Field
+// const value = context.getProperty("yourField");
+
+// Get Entire Model
+const data = context.getObject();
+
+modeloPageDetail.setData(data);
+
+oApp.toDetail(oPageDetail);
+
+// console.log(data[0]);
+
+// modeloIconTabBar.setData(data[0]);
+//oObjectHeader.setTitle("Concern # " + data[0].issueID);
+//oObjectHeader.setIntro(data[0].issueCategory + " // " + data[0].issueType);
+//oObjectNumber.setNumber(data[0].issueScore);
+//modeloPanelConcernInfo.setData(data[0]);
+
+var options = {
+    parameters: {
+        where: JSON.stringify({ equipmentID: data.equipmentID }),
+    },
+};
+
+apioRestAPIGetEquipment(options);
